@@ -14,8 +14,8 @@ All interactions are stochastic. An additional feature of immune cells is recrui
 
 # HOW TO USE IT
 
-To experiment: 
-(0) Download NetLogo and all relevant files found in this repository.   
+To experiment:   
+(0) Download NetLogo and all relevant files found in this repository.     
 (1) Choose the number of "cancer cells" in the model and behaviroal probabilities via the sliders on the interface.    
 (2) Click the "setup" button to initialize the TME.    
 (3) Click the "go" button to run a simulation.      
