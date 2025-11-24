@@ -40,7 +40,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 * Features such as adjustable immune response and cell targeting could be included to represent treatments such as immunotherapy and radiation, respectively.
 
-* The number of ticks to convergence to a cancer-free mircoenvironment could be output via a monitor or the command line. 
+* The number of ticks to convergence to a cancer-free microenvironment could be output via a monitor or the command line. 
 
 * BehaviorSpace could be used to run replicate simulations to output relevant data for analyzing the distribution of times to convergence or the relationship between number of each cell type (and/or size of environment) and time to convergence.
 
