@@ -1,6 +1,6 @@
 # WHAT IS IT?  
 
-This is an agent-based model of competition, based on the game Rock-Paper-Scissors. 
+This is an agent-based model of competition, based on the game Rock-Paper-Scissors, developed using NetLogo software.
 
 # HOW IT WORKS
 
