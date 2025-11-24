@@ -10,7 +10,8 @@ In this ABM, agents move randomly in 2D space and "play" the game locally. Each 
 
 # HOW TO USE IT
 
-To play:   
+To play:  
+(0) Download NetLogo and all relevant files found in this repository.  
 (1) Choose the number of "players" (i.e., agents) in the model via the slider on the interface.  
 (2) Click the "setup" button to initialize the game.  
 (3) Click the "go" button to run a simulation.    
