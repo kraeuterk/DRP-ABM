@@ -19,7 +19,7 @@ Agent-based modeling (ABM) is a computational approach to studying emergent outp
 
 # ABM Files
 File related to the Rock-Paper-Scissors simulator: XXX    
-File related to the tumor mircoenvironment ABM: XXX  
+File related to the tumor microenvironment ABM: XXX  
 See Rock-Paper-Scissors-README.md and Tumor-Microenvironment-README.md for more information on each ABM, respectively. 
 
 # Authors
