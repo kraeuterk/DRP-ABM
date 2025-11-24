@@ -1,6 +1,6 @@
 # WHAT IS IT?  
 
-This is an agent-based model of a generalized tumor mircoenvironment (TME) in 2D developed using NetLogo software. 
+This is an agent-based model of a generalized tumor microenvironment (TME) in 2D developed using NetLogo software. 
 
 # HOW IT WORKS
 
@@ -16,7 +16,7 @@ All interactions are stochastic. An additional feature of immune cells is recrui
 
 To experiment:   
 (0) Download NetLogo and all relevant files found in this repository.     
-(1) Choose the number of "cancer cells" in the model and behaviroal probabilities via the sliders on the interface.    
+(1) Choose the number of "cancer cells" in the model and behavioral probabilities via the sliders on the interface.    
 (2) Click the "setup" button to initialize the TME.    
 (3) Click the "go" button to run a simulation.      
 
@@ -44,7 +44,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 * BehaviorSpace could be used to run replicate simulations to output relevant data for analyzing the distribution of times to convergence or the relationship between number of each cell type (and/or size of environment) and time to convergence.
 
-There is much that could be done to extend this model and improve its biological accuracy and scientific relevance. Published lierature and experiemental data must guide future model modifications.
+There is much that could be done to extend this model and improve its biological accuracy and scientific relevance. Published literature and experimental data must guide future model modifications.
 
 # NETLOGO FEATURES
 
