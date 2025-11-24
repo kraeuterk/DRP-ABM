@@ -1,6 +1,6 @@
 # WHAT IS IT?  
 
-This is an agent-based model of a generalized tumor mircoenvironment (TME) in 2D. 
+This is an agent-based model of a generalized tumor mircoenvironment (TME) in 2D developed using NetLogo software. 
 
 # HOW IT WORKS
 
