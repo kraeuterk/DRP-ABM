@@ -4,14 +4,19 @@ This is an agent-based model of a generalized tumor mircoenvironment (TME) in 2D
 
 # HOW IT WORKS
 
-Rock-Paper-Scissors is a hand game in which players simulatenously make one hand motion (rock, paper, or scissors) and the winner is determined by a set of rules: (i) rock beats scissors, (ii) paper beats rock, and (iii) scissors beats paper.  
+The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- stromal (normal), cancer, and immune cells -- which interact with each other and the spatial environment. We assume stromal cells to be fixed in space and cancer and immune cells to be mobile. In particular, cancer cells move randomly in 2D space and immune cells move towards (i.e., target) cancer cells. If two agents come within some set radius of each other, they may interact. Interactions are modeled as uni-directional. The implications of interactions are based on the following assumptions: 
 
-In this ABM, agents move randomly in 2D space and "play" the game locally. Each agent is defined to a team -- rock, paper, or scissors. In the current model verison, the agents are split evenly among the 3 teams and they move randomly in the environment. If two agents come within some set radius of each other, they "compete" and the losing agent joins the team of the winning agent (e.g., if a "rock" and a "paper" "bump into" each other, then the "rock" agent is transformed into a "paper"). The game comtinues until all agents are on the same team. 
+if an immune cell interacts with a cancer cell, then the "health" of that cancer cell is reduced  
+if a cancer cell interacts with a normal cell, then XXX    
+if a cancer cell interacts with an immune cell, then XXX  
+
+All interactions are stochastic. An additional feature of immune cells is recruitment. That is, in relation to the number of cancer cells in the environment and based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations. 
 
 # HOW TO USE IT
 
-To experiment:   
-(1) Choose the number of "cancer cells" in the model via the slider on the interface.    
+To experiment: 
+(0) Download NetLogo and all relevant files found in this repository.   
+(1) Choose the number of "cancer cells" in the model and behaviroal probabilities via the sliders on the interface.    
 (2) Click the "setup" button to initialize the TME.    
 (3) Click the "go" button to run a simulation.      
 
