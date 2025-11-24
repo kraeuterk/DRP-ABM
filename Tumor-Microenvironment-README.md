@@ -4,7 +4,7 @@ This is an agent-based model of a generalized tumor microenvironment (TME) in 2D
 
 # HOW IT WORKS
 
-The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- stromal (normal), cancer, and immune cells -- which interact with each other and the spatial environment. We assume stromal cells to be fixed in space and cancer and immune cells to be mobile. In particular, cancer cells move randomly in 2D space and immune cells move towards (i.e., target) cancer cells. If two agents come within some set radius of each other, they may interact. Interactions are modeled as uni-directional. The implications of interactions are based on the following assumptions: 
+The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- normal (stromal), cancer, and immune cells -- which interact with each other and the spatial environment. We assume stromal cells to be fixed in space and cancer and immune cells to be mobile. In particular, cancer cells move randomly in 2D space and immune cells move towards (i.e., target) cancer cells. If two agents come within some set radius of each other, they may interact. Interactions are modeled as uni-directional. The implications of interactions are based on the following assumptions: 
 
 if an immune cell interacts with a cancer cell, then the "health" of that cancer cell is reduced  
 if a cancer cell interacts with a normal cell, then XXX    
