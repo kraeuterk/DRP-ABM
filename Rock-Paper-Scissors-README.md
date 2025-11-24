@@ -4,9 +4,9 @@ This is an agent-based model of competition, based on the game Rock-Paper-Scisso
 
 # HOW IT WORKS
 
-Rock-Paper-Scissors is a hand game in which players simulatenously make one hand motion (rock, paper, or scissors) and the winner is determined by a set of rules: (i) rock beats scissors, (ii) paper beats rock, and (iii) scissors beats paper.  
+Rock-Paper-Scissors is a hand game in which players simultaneously make one hand motion (rock, paper, or scissors) and the winner is determined by a set of rules: (i) rock beats scissors, (ii) paper beats rock, and (iii) scissors beats paper.  
 
-In this ABM, agents move randomly in 2D space and "play" the game locally. Each agent is defined to a team -- rock, paper, or scissors. In the current model verison, the agents are split evenly among the 3 teams and they move randomly in the environment. If two agents come within some set radius of each other, they "compete" and the losing agent joins the team of the winning agent (e.g., if a "rock" and a "paper" "bump into" each other, then the "rock" agent is transformed into a "paper"). The game comtinues until all agents are on the same team. 
+In this ABM, agents move randomly in 2D space and "play" the game locally. Each agent is defined to a team -- rock, paper, or scissors. In the current model version, the agents are split evenly among the 3 teams and they move randomly in the environment. If two agents come within some set radius of each other, they "compete" and the losing agent joins the team of the winning agent (e.g., if a "rock" and a "paper" "bump into" each other, then the "rock" agent is transformed into a "paper"). The game continues until all agents are on the same team. 
 
 # HOW TO USE IT
 
@@ -34,7 +34,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 * BehaviorSpace could be used to run replicate simulations to output relevant data for analyzing the distribution of wins between each team (rock, paper, and scissors) or the relationship between number of agents (and/or size of environment) and time to convergence. 
 
-* The model could be adjusted to include adaptive decision-making, where agents move to avoid agents that will beat them at the game (e.g., rock moves away from paper) and/or towards agents that they will beat (e.g., rock moves towards scissors). Will including goal-directed movement both away from and towards others agents result in a longer time to convergence, in general? Additionally, agents (or teams) could be made to be "smarter" than other agents using probabilities.
+* The model could be adjusted to include adaptive decision-making, where agents move to avoid agents that will beat them at the game (e.g., rock moves away from paper) and/or towards agents that they will beat (e.g., rock moves towards scissors). Will including goal-directed movement both away from and towards other agents result in a longer time to convergence, in general? Additionally, agents (or teams) could be made to be "smarter" than other agents using probabilities.
 
 * Additional buttons/sliders could be added to increase flexibility in the setup (e.g., enable the user to control the initial distribution of teams, enable the user to control the interaction radius)
 
