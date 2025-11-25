@@ -44,7 +44,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 * BehaviorSpace could be used to run replicate simulations to output relevant data for analyzing the distribution of times to convergence or the relationship between number of each cell type (and/or size of environment) and time to convergence.
 
-There is much that could be done to extend this model and improve its biological accuracy and scientific relevance. Published literature and experimental data must guide future model modifications.
+There is much that could be done to extend this model and improve its biological accuracy and scientific relevance. It is recommended that published literature and experimental data guide future model modifications.
 
 # NETLOGO FEATURES
 
