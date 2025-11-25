@@ -14,7 +14,7 @@ See: https://programs.mcs.cmu.edu/drp/
 * Learn how to develop an ABM using NetLogo
 * Learn how ABM has been used in mathematical biology research
 
-# Our Reading
+# Our Readings
 * Railsback and Grimm (2019) Agent-Based and Individual-Based Modeling 2nd ed. (ISBN: 9780691190839)
      - Introduction to agent-based modeling and NetLogo
 
@@ -28,11 +28,12 @@ See: https://programs.mcs.cmu.edu/drp/
      - Example of modeling cancer cell dynamics 
 
 # Summary of Our Progress
-Agent-based modeling (ABM) is a computational approach to studying emergent output of complex systems. We reviewed Chapters 1 - X of Railsback and Grimm (2019) for an introduction to ABM and the ABM software NetLogo. Textbook example models provided practice with NetLogo coding and general modeling strategies. We then developed a user-friendly Rock-Paper-Scissors simulator using NetLogo. Transitioning into the realm of Mathematical Biology (an area that benefits from the use of ABM due to the complex nature of biological systems), we developed a first version of a generalized tumor microenvironment ABM.
+Agent-based modeling (ABM) is a computational approach to studying emergent output of complex systems. We reviewed Chapters 1 - 4 of Railsback and Grimm (2019) for an introduction to ABM and the ABM software NetLogo. Textbook example models provided practice with NetLogo coding and general modeling strategies. We then developed a user-friendly Rock-Paper-Scissors simulator using NetLogo. From this foundation, we transitioned into the realm of Mathematical Biology (an area that benefits from the use of ABM due to the complex nature of biological systems) and developed a first version of a generalized tumor microenvironment ABM.
 
 # ABM Files
 File related to the Rock-Paper-Scissors simulator: XXX    
 File related to the tumor microenvironment ABM: XXX  
+  
 See Rock-Paper-Scissors-README.md and Tumor-Microenvironment-README.md for more information on each ABM, respectively. 
 
 # Authors
