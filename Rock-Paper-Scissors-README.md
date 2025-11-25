@@ -36,7 +36,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 * The model could be adjusted to include adaptive decision-making, where agents move to avoid agents that will beat them at the game (e.g., rock moves away from paper) and/or towards agents that they will beat (e.g., rock moves towards scissors). Will including goal-directed movement both away from and towards other agents result in a longer time to convergence, in general? Additionally, agents (or teams) could be made to be "smarter" than other agents using probabilities.
 
-* Additional buttons/sliders could be added to increase flexibility in the setup (e.g., enable the user to control the initial distribution of teams, enable the user to control the interaction radius)
+* Additional buttons/sliders could be added to increase flexibility in the setup (e.g., enable the user to control the initial distribution of teams, enable the user to control the interaction radius).
 
 # NETLOGO FEATURES
 
