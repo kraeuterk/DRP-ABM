@@ -1,7 +1,7 @@
 # DRP-ABM
 This repository contains files from a Directed Reading Program project on agent-based modeling. 
 
-# Overview
+# DRP Overview
 “The Directed Reading Program (DRP) is a student mentorship initiative jointly run by the math departments at Carnegie Mellon University and the University of Pittsburgh. It pairs undergraduates with graduate student mentors to explore advanced mathematical topics through weekly meetings and independent reading over the course of a semester.  
 ...  
 
@@ -12,7 +12,20 @@ See: https://programs.mcs.cmu.edu/drp/
 # Our Goals 
 * Learn about agent-based modeling (ABM) and its advantages
 * Learn how to develop an ABM using NetLogo
-* Learn how ABM has been used in mathematical biology research 
+* Learn how ABM has been used in mathematical biology research
+
+# Our Reading
+* Railsback and Grimm (2019) Agent-Based and Individual-Based Modeling 2nd ed. (ISBN: 9780691190839)
+     - Introduction to agent-based modeling and NetLogo
+
+* NetLogo documentation: https://docs.netlogo.org/
+     - NetLogo download and coding support
+
+* Miller Neilan et al. (2023) Developing a 3-D computational model of neurons in the central amygdala to understand pharmacological targets for pain. doi: 10.3389/fpain.2023.1183553
+     - Example math bio ABM and example of ODD protocol used in practice 
+
+* Fassoni et al. (2024) Dynamics and bifurcations in a model of chronic myeloid leukemia with optimal immune response windows. doi: 10.1007/s00285-024-02135-3
+     - Example of modeling cancer cell dynamics 
 
 # Summary of Our Progress
 Agent-based modeling (ABM) is a computational approach to studying emergent output of complex systems. We reviewed Chapters 1 - X of Railsback and Grimm (2019) for an introduction to ABM and the ABM software NetLogo. Textbook example models provided practice with NetLogo coding and general modeling strategies. We then developed a user-friendly Rock-Paper-Scissors simulator using NetLogo. Transitioning into the realm of Mathematical Biology (an area that benefits from the use of ABM due to the complex nature of biological systems), we developed a first version of a generalized tumor microenvironment ABM.
