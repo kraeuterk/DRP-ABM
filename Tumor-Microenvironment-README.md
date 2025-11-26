@@ -10,7 +10,7 @@ if an immune cell interacts with a cancer cell, then the "health" of that cancer
 if a cancer cell interacts with a normal cell, then XXX    
 if a cancer cell interacts with an immune cell, then XXX  
 
-All interactions are stochastic. An additional feature of immune cells is recruitment. That is, in relation to the number of cancer cells in the environment and based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations. 
+All interactions are stochastic. An additional feature of immune cells is recruitment. That is, in relation to the number of cancer cells in the environment and based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations. We assume some cell behavior is depended on spatial location (i.e., tumor boundary vs tumor core). 
 
 # HOW TO USE IT
 
