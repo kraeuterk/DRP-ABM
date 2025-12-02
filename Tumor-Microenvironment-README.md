@@ -11,7 +11,7 @@ The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- normal (str
 
 All interactions are stochastic. We assume some cell behavior is depended on spatial location (i.e., tumor boundary vs tumor core). An additional feature of immune cells is recruitment (unlimited capacity). That is, based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations. In this version, simulations run indefinitely. 
 
-For full model details, see the NetLogo code in: Tumor-Mircoenvironment-ABM.nlogox
+For full model details, see the NetLogo code in: Tumor-Microenvironment-ABM.nlogox
 
 # HOW TO USE IT
 
