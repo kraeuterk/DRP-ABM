@@ -4,11 +4,10 @@ This is an agent-based model of a generalized tumor microenvironment (TME) in 2D
 
 # HOW IT WORKS
 
-The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- normal (stromal), cancer, and immune cells -- which interact with each other and the spatial environment. We assume stromal cells to be fixed in space and cancer and immune cells to be mobile. In particular, cancer cells move randomly in 2D space and immune cells move towards (i.e., target) cancer cells. If two agents come within some set radius of each other, they may interact. Interactions are modeled as uni-directional. The implications of interactions are based on the following assumptions: 
+The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- normal (stromal), cancer, and immune cells -- which interact with each other and the spatial environment. We assume normal cells to be fixed in space and cancer and immune cells to be mobile. In particular, cancer cells move randomly in 2D space and immune cells move towards (i.e., target) cancer cells. If two agents come within some set radius of each other, they may interact. Interactions are modeled as uni-directional. The implications of interactions are based on the following assumptions: 
 
-if an immune cell interacts with a cancer cell, then the "health" of that cancer cell is reduced  
-if a cancer cell interacts with a normal cell, then XXX    
-if a cancer cell interacts with an immune cell, then XXX  
+*If an immune cell interacts with a cancer cell, then the "health" of that cancer cell is reduced. When the health has reached a certain threshold, the cancer cell is converted to a normal cell. This represents the death of the cancer cell and subsequent replacement by a normal cell. For simplicity we assume this replacement to be instantaneous.    
+*If a cancer cell interacts with a normal cell, then the “health” of that normal cell is reduced. When the health has reached a certain threshold, the normal cell dies (i.e., is removed from the model).   
 
 All interactions are stochastic. We assume some cell behavior is depended on spatial location (i.e., tumor boundary vs tumor core). An additional feature of immune cells is recruitment. That is, in relation to the number of cancer cells in the environment and based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations.  
 
@@ -48,7 +47,7 @@ There is much that could be done to extend this model and improve its biological
 
 # NETLOGO FEATURES
 
-The interactive interface allows users to adjust the number of each cell type in the environment and the behavioral probabilities. 
+The interactive interface allows users to adjust the number of each cell type in the environment and the behavioral probabilities.  
 
 # RELATED MODELS
 
