@@ -21,7 +21,8 @@ To experiment:
  * behavioral probabilities:
    * pcs = Probability that the Cancer Spreads
    * pik = Probability that the Immune cells attack (Kill) the cancer cells
-   * pir = Probabilitiy that the Immune cells Recruit additional immune cells  
+   * pir = Probabilitiy that the Immune cells Recruit additional immune cells
+    
 (2) Click the "setup" button to initialize the TME.    
 (3) Click the "go" button to run a simulation.      
 
