@@ -9,7 +9,7 @@ The TME ABM consists of 3 cell ("agent") types (NetLogo "breeds") -- normal (str
 *If an immune cell interacts with a cancer cell, then the "health" of that cancer cell is reduced. When the health has reached a certain threshold (<= 0), the cancer cell is converted to a normal cell. This represents the death of the cancer cell and subsequent replacement by a normal cell. For simplicity we assume this replacement to be instantaneous.    
 *If a cancer cell interacts with a normal cell, then the “health” of that normal cell is reduced. When the health has reached a certain threshold (<= 30), the normal cell dies (i.e., is removed from the model).   
 
-All interactions are stochastic. We assume some cell behavior is depended on spatial location (i.e., tumor boundary vs tumor core). An additional feature of immune cells is recruitment. That is, in relation to the number of cancer cells in the environment and based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations.   
+All interactions are stochastic. We assume some cell behavior is depended on spatial location (i.e., tumor boundary vs tumor core). An additional feature of immune cells is recruitment (unlimited capacity). That is, based on a stochastic procedure, additional immune cells are added into the environment. Interactions between cell types and immune recruitment lead to changes in the sizes of the cell populations. In this version, simulations run indefinitely. 
 
 For full model details, see the NetLogo code in: Tumor-Mircoenvironment-ABM.nlogox
 
@@ -44,6 +44,10 @@ Below are some ideas for how this ABM could be extended/adjusted:
 * Additional buttons/sliders could be added to increase flexibility in the setup (e.g., enable the user to control the initial distribution of cells, enable the user to control the interaction radius)
 
 * Features such as adjustable immune response and cell targeting could be included to represent treatments such as immunotherapy and radiation, respectively.
+
+* Immune recruitment can be set to be in relation to the number of cancer cells in the environment.
+
+*  A stopping criterion can be added to limit simulation time to a fixed experimental time range.    
 
 * The number of ticks to convergence to a cancer-free microenvironment could be output via a monitor or the command line. 
 
