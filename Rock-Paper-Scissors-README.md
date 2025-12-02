@@ -6,13 +6,13 @@ This is an agent-based model of competition, based on the game Rock-Paper-Scisso
 
 Rock-Paper-Scissors is a hand game in which players simultaneously make one hand motion (rock, paper, or scissors) and the winner is determined by a set of rules: (i) rock beats scissors, (ii) paper beats rock, and (iii) scissors beats paper.  
 
-In this ABM, agents move randomly in 2D space and "play" the game locally. Each agent is defined to a team -- rock, paper, or scissors. In the current model version, the agents are split evenly among the 3 teams and they move randomly in the environment. If two agents come within some set radius of each other, they "compete" and the losing agent joins the team of the winning agent (e.g., if a "rock" and a "paper" "bump into" each other, then the "rock" agent is transformed into a "paper"). The game continues until all agents are on the same team. 
+In this ABM, agents move randomly in 2D space and "play" the game locally. Each agent is defined to a team -- rock, paper, or scissors. In a typical model setup, the agents are split evenly among the 3 teams (though, this can be adjusted via sliders on the interface) and they move randomly in the environment. If two agents come within some set radius of each other, they "compete" and the losing agent joins the team of the winning agent (e.g., if a "rock" and a "paper" "bump into" each other, then the "rock" agent is transformed into a "paper"). The game continues until all agents are on the same team. 
 
 # HOW TO USE IT
 
 To play:  
-(0) Download NetLogo and all relevant files found in this repository.  
-(1) Choose the number of "players" (i.e., agents) in the model via the slider on the interface.  
+(0) Download NetLogo 7.0+ and all relevant files found in this repository.  
+(1) Choose the number of "players" (i.e., agents) in the model via the sliders on the interface.  
 (2) Click the "setup" button to initialize the game.  
 (3) Click the "go" button to run a simulation.    
 
@@ -22,7 +22,7 @@ During a simulation, view the environment window and plots to monitor the succes
 
 # THINGS TO TRY
 
-Adjust the slider and see how the number of "players" impacts the rate at which a winner is obtained. Can you optimize the number of "players" to converge to a win in the least amount of ticks? 
+Adjust the slider and see how the number of "players" on each team impacts the rate at which a winner is obtained. For a 33%-33%-33% split between the teams, can you optimize the number of total "players" to converge to a win in the least amount of ticks? 
 
 # EXTENDING THE MODEL
 
@@ -40,7 +40,7 @@ Below are some ideas for how this ABM could be extended/adjusted:
 
 # NETLOGO FEATURES
 
-The interactive interface allows users to adjust the number of players in the game. 
+The interactive interface allows users to adjust the number of players in the game.  
 
 # RELATED MODELS
 
