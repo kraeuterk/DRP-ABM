@@ -17,6 +17,9 @@ See: https://programs.mcs.cmu.edu/drp/
 # Our Readings
 * Railsback and Grimm (2019) Agent-Based and Individual-Based Modeling 2nd ed. (ISBN: 9780691190839)
      - Introduction to agent-based modeling and NetLogo
+ 
+* Macal & North (2011) Introductory Tutorial: Agent-based Modeling and Simulation. doi: 10.1109/WSC.2011.6147864  
+     - Introductory overview of agent-based modeling    
 
 * NetLogo documentation: https://docs.netlogo.org/
      - NetLogo download and coding support
