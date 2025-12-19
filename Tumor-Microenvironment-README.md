@@ -17,7 +17,7 @@ For full model details, see the NetLogo code in: Tumor-Microenvironment-ABM.nlog
 
 To experiment:   
 (0) Download NetLogo and all relevant files found in this repository.     
-(1) Choose the number of "cancer cells" in the model and behavioral probabilities via the sliders on the interface.  
+(1) Choose the number of "cancer cells" in the model and behavioral probabilities via the input and sliders on the interface.  
  * behavioral probabilities:
    * pcs = Probability that the Cancer Spreads
    * pik = Probability that the Immune cells attack (Kill) the cancer cells
